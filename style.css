@@ -51,7 +51,7 @@ header{
 
 /* bannar- section */
 .bannar{
-  background: url("https://i.postimg.cc/B6JMtycJ/header-bg01.jpg") no-repeat center center;
+  background: url("./img/header-bg01.jpg") no-repeat center center;
   background-size: cover;
   padding: 150px 0px;
   object-fit: cover;
@@ -160,4 +160,83 @@ header{
   color: yellow;
   text-decoration: dotted;
   font-size: 20px;
+}
+
+
+
+@media screen and (max-width:992px) {
+  .left {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 28px;
+    float: none;
+  }
+  .right {
+    text-align: center;
+    margin: auto;
+    display: block;
+    float: none;
+  }
+  .navbar ul li a {
+    padding: 0px 10px;
+    font-size: 15px;
+  }
+  .bannar {
+    padding: 100px 0px;
+  }
+  .bannar-content h1 {
+    font-size: 50px;
+  }
+  .btn {
+    margin-top: 40px;
+    padding: 5px 10px;
+  }
+  .about-image img {
+    width: 100%;
+  }
+  .about-content {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .contact-sections {
+    flex-direction: column;
+  }
+  .service-item {
+    margin: 10px 0px 20px;
+  }
+}
+@media screen and (max-width:500px) {
+  .logo h1 {
+    font-size: 25px;
+  }
+  .navbar ul{
+    padding-left: 0;
+  }
+  .navbar ul li a {
+    padding: 0px 5px;
+    font-size: 12px;
+  }
+  .bannar {
+    padding: 50px 0px;
+  }
+  .bannar-content h1 {
+    font-size: 35px;
+  }
+  p {
+    font-size: 13px;
+  }
+  .btn {
+    padding: 5px 10px;
+    font-size: 15px;
+  }
+  .footer-icon span {
+    padding: 0px 10px;
+    font-size: 20px;
+  }
+  .footer-content {
+    word-spacing: 0px;
+    font-size: 15px;
+  }
 }
